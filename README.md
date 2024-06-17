@@ -9,6 +9,7 @@ The learning paradigm of GAugLLM vs. traditional GCL methods on TAGs. While stan
 
 ## 🚀Quick Start
 For Mix-of-Experts-Prompt part, please check LLMs folder. First you should follow GIANT:Node Feature Extraction by Self-Supervised Multi-scale Neighborhood Prediction (https://arxiv.org/abs/2102.06514) to set up and update our modifications. 
+![architecture](https://github.com/NYUSHCS/GAugLLM/blob/main/img/moep.png)
 
 For Collaborative Edge Modifier part, we add some modification on the original GCL frameworks of BGRL, GBT, GraphMAE and S2GAE. For GraphCL we used its loss function design in GBT framework. 
 

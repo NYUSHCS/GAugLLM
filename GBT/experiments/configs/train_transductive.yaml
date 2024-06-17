@@ -1,0 +1,105 @@
+GraphCL_loss:
+  default: &default_bt
+    total_epochs: 4000
+    warmup_epochs: 400
+    log_interval: 1000
+
+  cora:
+    total_epochs: 1000
+    warmup_epochs: 200
+    log_interval: 1000
+    emb_dim: 512
+    lr_base: 5.e-4
+    p_x: 0.1
+    p_e: 0.3
+
+  pubmed:
+    total_epochs: 200
+    warmup_epochs: 20
+    log_interval: 1000
+    emb_dim: 512
+    lr_base: 1.e-3
+    p_x: 0.3
+    p_e: 0.4
+
+  amazon-history:
+    total_epochs: 1000
+    warmup_epochs: 200
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 5.e-4
+    p_x: 0.1
+    p_e: 0.5
+
+  amazon-computers:
+    total_epochs: 1000
+    warmup_epochs: 400
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 1.e-3
+    p_x: 0.1
+    p_e: 0.5
+
+  amazon-photo:
+    total_epochs: 1000
+    warmup_epochs: 200
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 5.e-4
+    p_x: 0.1
+    p_e: 0.5
+
+  ogbn-arxiv:
+    total_epochs: 700
+    warmup_epochs: 100
+    log_interval: 100
+    emb_dim: 256
+    lr_base: 1.e-3
+    p_x: 0
+    p_e: 0.4
+
+barlow_twins:
+  amazon-history:
+    total_epochs: 2000
+    warmup_epochs: 400
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 5.e-4
+    p_x: 0.1
+    p_e: 0.5
+
+  amazon-computers:
+    total_epochs: 8000
+    warmup_epochs: 400
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 1.e-3
+    p_x: 0.1
+    p_e: 0.5
+
+  amazon-photo:
+    total_epochs: 500
+    warmup_epochs: 400
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 1.e-3
+    p_x: 0.3
+    p_e: 0.6
+
+  pubmed:
+    total_epochs: 200
+    warmup_epochs: 40
+    log_interval: 1000
+    emb_dim: 256
+    lr_base: 5.e-4
+    p_x: 0.3
+    p_e: 0.7
+
+  ogbn-arxiv:
+    total_epochs: 700
+    warmup_epochs: 100
+    log_interval: 100
+    emb_dim: 256
+    lr_base: 1.e-3
+    p_x: 0
+    p_e: 0.4

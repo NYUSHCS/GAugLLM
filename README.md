@@ -1,6 +1,6 @@
 # GAugLLM
 Official code for "[GAugLLM: Improving Graph Contrastive Learning for
-Text-Attributed Graphs with Large Language Models](https://arxiv.org/abs/2406.08310v2)". GAugLLM is a novel framework for augmenting TAGs, leveraging advanced large language models like Mistral to enhance self-supervised graph learning.
+Text-Attributed Graphs with Large Language Models](https://arxiv.org/abs/2406.11945)". GAugLLM is a novel framework for augmenting TAGs, leveraging advanced large language models like Mistral to enhance self-supervised graph learning.
 
 ## Pipeline of the GAugLLM
 The learning paradigm of GAugLLM vs. traditional GCL methods on TAGs. While standard GCL methodologies rely on text attributes primarily to generate numerical node features via shallow embedding models, such as word2vec, our GAugLLM endeavors to advance contrastive learning on graphs through advanced LLMs. This includes the direct perturbation of raw text attributes for feature augmentation, facilitated by a novel mixture-of-prompt experts technique. Additionally, GAugLLM harnesses both structural and textual commonalities to effectively perturb edges deemed most spurious or likely to be connected, thereby enhancing structure augmentation.

@@ -18,3 +18,12 @@ You can use run.sh in LLM folder to run Mix-of-Expert-Prompt over GIANT framewor
 
 ### Collaborative Edge Modifier
 To run original and GAugLLM on GCLs respectively, please use sripts with original or GAug in their names respectively. 
+
+## Citation
+@article{fang2024gaugl,
+  title={GAugLLM: Improving Graph Contrastive Learning for Text-Attributed Graphs with Large Language Models},
+  author={Yi Fang and Dongzhe Fan and Daochen Zha and Qiaoyu Tan},
+  booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
+  year={2024},
+  url={https://arxiv.org/abs/2406.11945}
+}

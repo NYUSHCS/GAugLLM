@@ -20,6 +20,9 @@ You can use run.sh in LLM folder to run Mix-of-Expert-Prompt over GIANT framewor
 To run original and GAugLLM on GCLs respectively, please use sripts with original or GAug in their names respectively. 
 
 ## Citation
+If you find this repo useful, please star the repo and cite:
+
+```bibtex
 @article{fang2024gaugl,
   title={GAugLLM: Improving Graph Contrastive Learning for Text-Attributed Graphs with Large Language Models},
   author={Yi Fang and Dongzhe Fan and Daochen Zha and Qiaoyu Tan},
@@ -27,3 +30,4 @@ To run original and GAugLLM on GCLs respectively, please use sripts with origina
   year={2024},
   url={https://arxiv.org/abs/2406.11945}
 }
+```
